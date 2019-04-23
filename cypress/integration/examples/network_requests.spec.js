@@ -47,7 +47,7 @@ context('Network Requests', () => {
 
   it('cy.request() - make an XHR request', () => {
     // https://on.cypress.io/request
-    cy.request('https://jsonplaceholder.typicode.com/comments')
+    cy.request('https://jsonplaceholder.cypress.io/comments')
       .should((response) => {
         expect(response.status).to.eq(200)
         expect(response.body).to.have.length(500)

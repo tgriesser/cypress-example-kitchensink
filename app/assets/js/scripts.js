@@ -109,7 +109,7 @@ $(() => {
   // end -----------------------------------------
 
   // begin: Handle our route logic -------------
-  let root = 'https://jsonplaceholder.typicode.com'
+  let root = 'https://jsonplaceholder.cypress.io'
 
   function getComment () {
     $.ajax({
